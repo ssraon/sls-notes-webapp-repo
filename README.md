@@ -1,1 +1,1 @@
-# sls-notes-webapp-repo
+- Before running this project, kindly run "npm install" to install project dependencies
