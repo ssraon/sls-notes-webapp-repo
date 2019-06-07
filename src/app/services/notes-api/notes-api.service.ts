@@ -19,7 +19,7 @@ export class NotesApiService {
 
         let args = {
             service: 'execute-api',
-            region: 'us-west-2',
+            region: 'us-east-1',
             hostname: host.hostname,
             path: path,
             method: method,
