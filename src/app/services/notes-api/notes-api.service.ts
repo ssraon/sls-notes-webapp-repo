@@ -37,6 +37,7 @@ export class NotesApiService {
         this.options = {};
         try {
             let savedCredsJson = this.authService.getCredentials();
+            console.log(`Signed headers ********* , ${savedCredsJson}`);
 
             if(savedCredsJson) {
                 let savedCreds = JSON.parse(savedCredsJson);
