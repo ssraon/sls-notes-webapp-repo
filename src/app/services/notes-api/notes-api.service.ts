@@ -52,6 +52,7 @@ export class NotesApiService {
 
                 this.options.headers = signed.headers;
                 delete this.options.headers.Host;
+                console.log(`signed.headers********* , ${JSON.stringify(this.options.headers)}`);
 
                 this.options.headers.app_user_id = savedCreds.IdentityId;
                 this.options.headers.app_user_name = savedCreds.user_name;
